@@ -1,0 +1,17 @@
+{
+  "name": "analyzeweatherpatterns",
+  "version": "1.0.0",
+  "description": "Libary to fetch weather data and perform analytics",
+  "main": "fetch4weather.js",
+  "scripts": {
+    "weatherfetch": "node --experimental-fetch fetch4weather.spec.test.js"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "JLC2319",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
